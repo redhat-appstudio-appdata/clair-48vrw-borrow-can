@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: clair-mvrr
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: clair-mvrr
+    app.kubernetes.io/part-of: clair
+  name: clair-mvrr
+spec:
+  port:
+    targetPort: 6060
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: clair-mvrr
+    weight: 100
+status: {}
