@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: clair-mvrr
     app.kubernetes.io/part-of: clair
-  name: clair-mvrr6wyu
+  name: clair-mvrrlu7e
 spec:
   port:
     targetPort: 6060
