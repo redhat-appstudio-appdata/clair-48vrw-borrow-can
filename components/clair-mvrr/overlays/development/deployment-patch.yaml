@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/clair/clair-mvrr@sha256:71dd4c0345113b3949a758be6b99fcfddd2a4f441e3c207e508e1c93fda2e799
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/clair/clair-mvrr@sha256:5965a21ebdf31660e8736f228f000d52b9602e4f9cbf8324ec305265e0950d8c
         name: container-image
         resources: {}
 status: {}
