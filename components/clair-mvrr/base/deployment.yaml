@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: clair-mvrr
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/clair/clair-mvrr@sha256:8b87d125beb534ed0b63780b37653dc037c680ab0211f36a8be07d82a0d22ede
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/clair/clair-mvrr@sha256:c0268d23f1c3710b6a04c257f990dac2828517d5d76ae0bcc23d38c63189fa75
         imagePullPolicy: Always
         name: container-image
         ports:
